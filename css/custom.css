@@ -54,6 +54,16 @@ strong {
     text-align: center;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#back-to-top a {
+    color: #95959d;
+}
+
 .faa-3x {
     font-size: 2em;
     color:  white;

@@ -121,6 +121,10 @@ strong {
     padding-bottom: 50px;
 }
 
+.intro p{
+    padding-top: 10px;
+}
+
 .packages {
 	text-align: center;
     padding-top: 50px;
@@ -171,6 +175,13 @@ strong {
   background-image: url('../images/lace-salmon.png');
   height: 74px;
   opacity: 0.2;
+}
+
+.actioncall {
+  color: #e4e4e7;
+  text-align: center;
+  font-family: 'Atma', Georgia;
+  font-size: 1.5em;
 }
 
 /* Google font: */

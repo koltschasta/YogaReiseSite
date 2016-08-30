@@ -168,7 +168,16 @@ strong {
     padding-bottom: 50px;
 }
 
+<<<<<<< HEAD
 .reiseprogramm {
+=======
+.intro p{
+    padding-top: 10px;
+}
+
+.packages {
+	text-align: center;
+>>>>>>> origin/master
     padding-top: 50px;
     padding-bottom: 50px;
 }

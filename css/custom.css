@@ -1,22 +1,31 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
  	padding-top: 50px;
-    color: #95959d;
-    font-family: 'Hind Siliguri', sans-serif, Georgia;
-    font-size: 18px;
+  color: #95959d;
+  font-family: Arial Narrow, 'Hind Siliguri', sans-serif, Georgia;
+  font-size: 18px;
 }
 
 h1, h2 {
-    font-family: 'Atma', Georgia;
-    color: #50afaf;
+  font-family: 'Atma', Georgia;
+  color: #50afaf;
 }
 
 h3 {
-    font-family: 'Atma', Georgia;
+  font-family: 'Atma', Georgia;
+  color: #50afaf;
+
+}
+
+h4 {
+  font-family: 'Atma', Georgia;
+  color: #50afaf;
+  margin-top: 0px;
 }
 
 strong {
-    color: #50afaf;
+  color: #50afaf;
+  font-family: 'Atma', Georgia;
 }
 
 #aboutus {
@@ -24,9 +33,8 @@ strong {
     padding-bottom: 50px;
 }
 
-#packages {
+#service {
     background-color: #f5f5f5;
-    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -52,7 +60,7 @@ strong {
 
 #footer span{
     font-size: 1em;
-    font-family: 'Hind Siliguri', sans-serif, Georgia;
+    font-family: Arial Narrow, 'Hind Siliguri', sans-serif, Georgia;
 }
 
 #back-to-top {
@@ -65,9 +73,31 @@ strong {
     color: #95959d;
 }
 
+#costs {
+    background: #dcefef;
+}
+
+#reiseprogramm {
+    background-color: white;
+}
+
+#reiseprogramm strong {
+    color: #95959d;
+    font-family: Arial Narrow, 'Hind Siliguri', sans-serif, Georgia;
+}
+
+.reiseprogramm p{
+    line-height: 18px;
+}
+
+.reiseprogramm img {
+    margin-bottom: 30px;
+}
+
 .fa-thumbs-o-up {
     font-size: 4em;
     color: #50afaf;
+    text-align: left;
 }
 
 .aboutus img {
@@ -105,8 +135,8 @@ strong {
     color: #CD5360;
 }
 
-.intro img {
-    padding: 10px;
+.intromain img {
+    padding: 5px;
 }
 
 .nav {
@@ -115,19 +145,35 @@ strong {
 }
 
 .intro {
-    text-align: center;
     font-family: 'Atma', Georgia;
-    font-size: 1.5em;
+    font-size: 20px;
+    padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
-.packages {
-	text-align: center;
+.intromain p{
+    padding-top: 10px;
+    font-family: 'Atma', Georgia;
+    font-size: 26px;
+}
+
+.service {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.packages p {
+.costs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reiseprogramm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service p {
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -155,6 +201,12 @@ strong {
     color: #85c7c7;
 }
 
+.vmiddle {
+    margin-top: 100px;        
+    font-size: 0.8em;
+
+}
+
 .checklist {
     text-align: left;
     margin-left: 50px;
@@ -171,6 +223,13 @@ strong {
   background-image: url('../images/lace-salmon.png');
   height: 74px;
   opacity: 0.2;
+}
+
+.actioncall {
+  color: #e4e4e7;
+  text-align: center;
+  font-family: 'Atma', Georgia;
+  font-size: 1.5em;
 }
 
 /* Google font: */
